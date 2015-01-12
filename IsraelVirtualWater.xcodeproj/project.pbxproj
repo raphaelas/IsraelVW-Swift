@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		767431141A64605600369541 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767431131A64605600369541 /* AppDelegate.swift */; };
+		767431161A64605600369541 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767431151A64605600369541 /* FirstViewController.swift */; };
+		767431181A64605600369541 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767431171A64605600369541 /* SecondViewController.swift */; };
+		7674311B1A64605600369541 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 767431191A64605600369541 /* Main.storyboard */; };
+		7674311D1A64605600369541 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7674311C1A64605600369541 /* Images.xcassets */; };
+		767431201A64605600369541 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7674311E1A64605600369541 /* LaunchScreen.xib */; };
+		7674312C1A64605600369541 /* IsraelVirtualWaterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7674312B1A64605600369541 /* IsraelVirtualWaterTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		767431261A64605600369541 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 767431061A64605600369541 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7674310D1A64605600369541;
+			remoteInfo = IsraelVirtualWater;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7674310E1A64605600369541 /* IsraelVirtualWater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IsraelVirtualWater.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		767431121A64605600369541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		767431131A64605600369541 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		767431151A64605600369541 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		767431171A64605600369541 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		7674311A1A64605600369541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7674311C1A64605600369541 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7674311F1A64605600369541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		767431251A64605600369541 /* IsraelVirtualWaterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IsraelVirtualWaterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7674312A1A64605600369541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7674312B1A64605600369541 /* IsraelVirtualWaterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsraelVirtualWaterTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7674310B1A64605600369541 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		767431221A64605600369541 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		767431051A64605600369541 = {
+			isa = PBXGroup;
+			children = (
+				767431101A64605600369541 /* IsraelVirtualWater */,
+				767431281A64605600369541 /* IsraelVirtualWaterTests */,
+				7674310F1A64605600369541 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7674310F1A64605600369541 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7674310E1A64605600369541 /* IsraelVirtualWater.app */,
+				767431251A64605600369541 /* IsraelVirtualWaterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		767431101A64605600369541 /* IsraelVirtualWater */ = {
+			isa = PBXGroup;
+			children = (
+				767431131A64605600369541 /* AppDelegate.swift */,
+				767431151A64605600369541 /* FirstViewController.swift */,
+				767431171A64605600369541 /* SecondViewController.swift */,
+				767431191A64605600369541 /* Main.storyboard */,
+				7674311C1A64605600369541 /* Images.xcassets */,
+				7674311E1A64605600369541 /* LaunchScreen.xib */,
+				767431111A64605600369541 /* Supporting Files */,
+			);
+			path = IsraelVirtualWater;
+			sourceTree = "<group>";
+		};
+		767431111A64605600369541 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				767431121A64605600369541 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		767431281A64605600369541 /* IsraelVirtualWaterTests */ = {
+			isa = PBXGroup;
+			children = (
+				7674312B1A64605600369541 /* IsraelVirtualWaterTests.swift */,
+				767431291A64605600369541 /* Supporting Files */,
+			);
+			path = IsraelVirtualWaterTests;
+			sourceTree = "<group>";
+		};
+		767431291A64605600369541 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7674312A1A64605600369541 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7674310D1A64605600369541 /* IsraelVirtualWater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7674312F1A64605600369541 /* Build configuration list for PBXNativeTarget "IsraelVirtualWater" */;
+			buildPhases = (
+				7674310A1A64605600369541 /* Sources */,
+				7674310B1A64605600369541 /* Frameworks */,
+				7674310C1A64605600369541 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IsraelVirtualWater;
+			productName = IsraelVirtualWater;
+			productReference = 7674310E1A64605600369541 /* IsraelVirtualWater.app */;
+			productType = "com.apple.product-type.application";
+		};
+		767431241A64605600369541 /* IsraelVirtualWaterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 767431321A64605600369541 /* Build configuration list for PBXNativeTarget "IsraelVirtualWaterTests" */;
+			buildPhases = (
+				767431211A64605600369541 /* Sources */,
+				767431221A64605600369541 /* Frameworks */,
+				767431231A64605600369541 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				767431271A64605600369541 /* PBXTargetDependency */,
+			);
+			name = IsraelVirtualWaterTests;
+			productName = IsraelVirtualWaterTests;
+			productReference = 767431251A64605600369541 /* IsraelVirtualWaterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		767431061A64605600369541 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Raphael Astrow";
+				TargetAttributes = {
+					7674310D1A64605600369541 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					767431241A64605600369541 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 7674310D1A64605600369541;
+					};
+				};
+			};
+			buildConfigurationList = 767431091A64605600369541 /* Build configuration list for PBXProject "IsraelVirtualWater" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 767431051A64605600369541;
+			productRefGroup = 7674310F1A64605600369541 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7674310D1A64605600369541 /* IsraelVirtualWater */,
+				767431241A64605600369541 /* IsraelVirtualWaterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7674310C1A64605600369541 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7674311B1A64605600369541 /* Main.storyboard in Resources */,
+				767431201A64605600369541 /* LaunchScreen.xib in Resources */,
+				7674311D1A64605600369541 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		767431231A64605600369541 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7674310A1A64605600369541 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				767431181A64605600369541 /* SecondViewController.swift in Sources */,
+				767431141A64605600369541 /* AppDelegate.swift in Sources */,
+				767431161A64605600369541 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		767431211A64605600369541 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7674312C1A64605600369541 /* IsraelVirtualWaterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		767431271A64605600369541 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7674310D1A64605600369541 /* IsraelVirtualWater */;
+			targetProxy = 767431261A64605600369541 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		767431191A64605600369541 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7674311A1A64605600369541 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7674311E1A64605600369541 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7674311F1A64605600369541 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7674312D1A64605600369541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7674312E1A64605600369541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		767431301A64605600369541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IsraelVirtualWater/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		767431311A64605600369541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IsraelVirtualWater/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		767431331A64605600369541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IsraelVirtualWaterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IsraelVirtualWater.app/IsraelVirtualWater";
+			};
+			name = Debug;
+		};
+		767431341A64605600369541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IsraelVirtualWaterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IsraelVirtualWater.app/IsraelVirtualWater";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		767431091A64605600369541 /* Build configuration list for PBXProject "IsraelVirtualWater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7674312D1A64605600369541 /* Debug */,
+				7674312E1A64605600369541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7674312F1A64605600369541 /* Build configuration list for PBXNativeTarget "IsraelVirtualWater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				767431301A64605600369541 /* Debug */,
+				767431311A64605600369541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		767431321A64605600369541 /* Build configuration list for PBXNativeTarget "IsraelVirtualWaterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				767431331A64605600369541 /* Debug */,
+				767431341A64605600369541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 767431061A64605600369541 /* Project object */;
+}
