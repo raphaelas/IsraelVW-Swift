@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7674310D1A64605600369541"
-               BuildableName = "IsraelVirtualWater.app"
-               BlueprintName = "IsraelVirtualWater"
+               BlueprintIdentifier = "76FA749B1A92BD49000E2A72"
+               BuildableName = "test3.app"
+               BlueprintName = "test3"
                ReferencedContainer = "container:IsraelVirtualWater.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,9 +28,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "767431241A64605600369541"
-               BuildableName = "IsraelVirtualWaterTests.xctest"
-               BlueprintName = "IsraelVirtualWaterTests"
+               BlueprintIdentifier = "76FA74B11A92BD4A000E2A72"
+               BuildableName = "test3Tests.xctest"
+               BlueprintName = "test3Tests"
                ReferencedContainer = "container:IsraelVirtualWater.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,9 +46,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "767431241A64605600369541"
-               BuildableName = "IsraelVirtualWaterTests.xctest"
-               BlueprintName = "IsraelVirtualWaterTests"
+               BlueprintIdentifier = "76FA74B11A92BD4A000E2A72"
+               BuildableName = "test3Tests.xctest"
+               BlueprintName = "test3Tests"
                ReferencedContainer = "container:IsraelVirtualWater.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -56,9 +56,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7674310D1A64605600369541"
-            BuildableName = "IsraelVirtualWater.app"
-            BlueprintName = "IsraelVirtualWater"
+            BlueprintIdentifier = "76FA749B1A92BD49000E2A72"
+            BuildableName = "test3.app"
+            BlueprintName = "test3"
             ReferencedContainer = "container:IsraelVirtualWater.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -75,9 +75,9 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7674310D1A64605600369541"
-            BuildableName = "IsraelVirtualWater.app"
-            BlueprintName = "IsraelVirtualWater"
+            BlueprintIdentifier = "76FA749B1A92BD49000E2A72"
+            BuildableName = "test3.app"
+            BlueprintName = "test3"
             ReferencedContainer = "container:IsraelVirtualWater.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -93,9 +93,9 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7674310D1A64605600369541"
-            BuildableName = "IsraelVirtualWater.app"
-            BlueprintName = "IsraelVirtualWater"
+            BlueprintIdentifier = "76FA749B1A92BD49000E2A72"
+            BuildableName = "test3.app"
+            BlueprintName = "test3"
             ReferencedContainer = "container:IsraelVirtualWater.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

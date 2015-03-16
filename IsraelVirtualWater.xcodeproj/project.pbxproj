@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		761C93741AB53B6300F2F215 /* TradeMapData.json in Resources */ = {isa = PBXBuildFile; fileRef = 761C93731AB53B6300F2F215 /* TradeMapData.json */; };
 		767431141A64605600369541 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767431131A64605600369541 /* AppDelegate.swift */; };
-		767431161A64605600369541 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767431151A64605600369541 /* FirstViewController.swift */; };
-		767431181A64605600369541 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767431171A64605600369541 /* SecondViewController.swift */; };
 		7674311B1A64605600369541 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 767431191A64605600369541 /* Main.storyboard */; };
 		7674311D1A64605600369541 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7674311C1A64605600369541 /* Images.xcassets */; };
 		767431201A64605600369541 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7674311E1A64605600369541 /* LaunchScreen.xib */; };
 		7674312C1A64605600369541 /* IsraelVirtualWaterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7674312B1A64605600369541 /* IsraelVirtualWaterTests.swift */; };
+		76B49F1A1A931A6B00CF2394 /* CommoditiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B49F191A931A6B00CF2394 /* CommoditiesViewController.swift */; };
+		76FA742F1A915785000E2A72 /* ivwlogo-60-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 76FA742E1A915785000E2A72 /* ivwlogo-60-60.png */; };
+		76FA74311A9157CD000E2A72 /* ivwlogo-80-80.png in Resources */ = {isa = PBXBuildFile; fileRef = 76FA74301A9157CD000E2A72 /* ivwlogo-80-80.png */; };
+		76FA74331A9157FD000E2A72 /* ivwlogo-58-58.png in Resources */ = {isa = PBXBuildFile; fileRef = 76FA74321A9157FD000E2A72 /* ivwlogo-58-58.png */; };
+		76FA74351A91587F000E2A72 /* ivwlogo-120-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 76FA74341A91587F000E2A72 /* ivwlogo-120-120.png */; };
+		76FA74371A9158B9000E2A72 /* ivwlogo-180-180.png in Resources */ = {isa = PBXBuildFile; fileRef = 76FA74361A9158B9000E2A72 /* ivwlogo-180-180.png */; };
+		76FA74391A91593C000E2A72 /* ivwlogo-152-152.png in Resources */ = {isa = PBXBuildFile; fileRef = 76FA74381A91593C000E2A72 /* ivwlogo-152-152.png */; };
+		76FA743B1A915970000E2A72 /* ivwlogo-76-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 76FA743A1A915970000E2A72 /* ivwlogo-76-76.png */; };
+		76FA743D1A915986000E2A72 /* ivwlogo-40-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 76FA743C1A915986000E2A72 /* ivwlogo-40-40.png */; };
+		76FA743F1A9159A7000E2A72 /* ivwlogo-29-29.png in Resources */ = {isa = PBXBuildFile; fileRef = 76FA743E1A9159A7000E2A72 /* ivwlogo-29-29.png */; };
+		76FA74411A915AA2000E2A72 /* smallivwlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 76FA74401A915AA2000E2A72 /* smallivwlogo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +37,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		761C93731AB53B6300F2F215 /* TradeMapData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TradeMapData.json; sourceTree = "<group>"; };
 		7674310E1A64605600369541 /* IsraelVirtualWater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IsraelVirtualWater.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		767431121A64605600369541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		767431131A64605600369541 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		767431151A64605600369541 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		767431171A64605600369541 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		7674311A1A64605600369541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7674311C1A64605600369541 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7674311F1A64605600369541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		767431251A64605600369541 /* IsraelVirtualWaterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IsraelVirtualWaterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7674312A1A64605600369541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7674312B1A64605600369541 /* IsraelVirtualWaterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsraelVirtualWaterTests.swift; sourceTree = "<group>"; };
+		76B49F191A931A6B00CF2394 /* CommoditiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommoditiesViewController.swift; path = ../CommoditiesViewController.swift; sourceTree = "<group>"; };
+		76FA742E1A915785000E2A72 /* ivwlogo-60-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ivwlogo-60-60.png"; sourceTree = "<group>"; };
+		76FA74301A9157CD000E2A72 /* ivwlogo-80-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ivwlogo-80-80.png"; sourceTree = "<group>"; };
+		76FA74321A9157FD000E2A72 /* ivwlogo-58-58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ivwlogo-58-58.png"; sourceTree = "<group>"; };
+		76FA74341A91587F000E2A72 /* ivwlogo-120-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ivwlogo-120-120.png"; sourceTree = "<group>"; };
+		76FA74361A9158B9000E2A72 /* ivwlogo-180-180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ivwlogo-180-180.png"; sourceTree = "<group>"; };
+		76FA74381A91593C000E2A72 /* ivwlogo-152-152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ivwlogo-152-152.png"; sourceTree = "<group>"; };
+		76FA743A1A915970000E2A72 /* ivwlogo-76-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ivwlogo-76-76.png"; sourceTree = "<group>"; };
+		76FA743C1A915986000E2A72 /* ivwlogo-40-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ivwlogo-40-40.png"; sourceTree = "<group>"; };
+		76FA743E1A9159A7000E2A72 /* ivwlogo-29-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ivwlogo-29-29.png"; sourceTree = "<group>"; };
+		76FA74401A915AA2000E2A72 /* smallivwlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smallivwlogo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +99,9 @@
 		767431101A64605600369541 /* IsraelVirtualWater */ = {
 			isa = PBXGroup;
 			children = (
+				761C93731AB53B6300F2F215 /* TradeMapData.json */,
+				76B49F191A931A6B00CF2394 /* CommoditiesViewController.swift */,
 				767431131A64605600369541 /* AppDelegate.swift */,
-				767431151A64605600369541 /* FirstViewController.swift */,
-				767431171A64605600369541 /* SecondViewController.swift */,
 				767431191A64605600369541 /* Main.storyboard */,
 				7674311C1A64605600369541 /* Images.xcassets */,
 				7674311E1A64605600369541 /* LaunchScreen.xib */,
@@ -93,6 +113,16 @@
 		767431111A64605600369541 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				76FA74401A915AA2000E2A72 /* smallivwlogo.png */,
+				76FA743E1A9159A7000E2A72 /* ivwlogo-29-29.png */,
+				76FA743C1A915986000E2A72 /* ivwlogo-40-40.png */,
+				76FA743A1A915970000E2A72 /* ivwlogo-76-76.png */,
+				76FA74381A91593C000E2A72 /* ivwlogo-152-152.png */,
+				76FA74361A9158B9000E2A72 /* ivwlogo-180-180.png */,
+				76FA74341A91587F000E2A72 /* ivwlogo-120-120.png */,
+				76FA74301A9157CD000E2A72 /* ivwlogo-80-80.png */,
+				76FA74321A9157FD000E2A72 /* ivwlogo-58-58.png */,
+				76FA742E1A915785000E2A72 /* ivwlogo-60-60.png */,
 				767431121A64605600369541 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -164,6 +194,7 @@
 				TargetAttributes = {
 					7674310D1A64605600369541 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 7AQZHZU3HS;
 					};
 					767431241A64605600369541 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -195,7 +226,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76FA74311A9157CD000E2A72 /* ivwlogo-80-80.png in Resources */,
+				761C93741AB53B6300F2F215 /* TradeMapData.json in Resources */,
+				76FA74371A9158B9000E2A72 /* ivwlogo-180-180.png in Resources */,
+				76FA74411A915AA2000E2A72 /* smallivwlogo.png in Resources */,
+				76FA74391A91593C000E2A72 /* ivwlogo-152-152.png in Resources */,
+				76FA743F1A9159A7000E2A72 /* ivwlogo-29-29.png in Resources */,
+				76FA74351A91587F000E2A72 /* ivwlogo-120-120.png in Resources */,
+				76FA742F1A915785000E2A72 /* ivwlogo-60-60.png in Resources */,
 				7674311B1A64605600369541 /* Main.storyboard in Resources */,
+				76FA743D1A915986000E2A72 /* ivwlogo-40-40.png in Resources */,
+				76FA74331A9157FD000E2A72 /* ivwlogo-58-58.png in Resources */,
+				76FA743B1A915970000E2A72 /* ivwlogo-76-76.png in Resources */,
 				767431201A64605600369541 /* LaunchScreen.xib in Resources */,
 				7674311D1A64605600369541 /* Images.xcassets in Resources */,
 			);
@@ -215,9 +257,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				767431181A64605600369541 /* SecondViewController.swift in Sources */,
+				76B49F1A1A931A6B00CF2394 /* CommoditiesViewController.swift in Sources */,
 				767431141A64605600369541 /* AppDelegate.swift in Sources */,
-				767431161A64605600369541 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,9 +383,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = IsraelVirtualWater/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -352,9 +396,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = IsraelVirtualWater/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -411,6 +458,7 @@
 				767431311A64605600369541 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		767431321A64605600369541 /* Build configuration list for PBXNativeTarget "IsraelVirtualWaterTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +467,7 @@
 				767431341A64605600369541 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
